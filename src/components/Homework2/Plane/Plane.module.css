@@ -1,0 +1,48 @@
+.select {
+    width: 12.5rem;
+    font-size: 1.125rem;
+    margin-top: 1.25rem;
+    margin-left: 0.625rem;
+}
+.img {
+    position: relative;
+    width: 300px;
+    aspect-ratio: 300/280;
+}
+.img img {
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.travelOption {
+    display: flex;
+    gap: 1.25rem;
+    margin-left: 1.25rem;
+    margin-top: 1.25rem;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.125rem;
+}
+.textWrapper {
+    gap: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.625rem;
+}
+.text input {
+    width: auto;
+}
+.radioboxWrapper {
+    display: flex;
+}
+
+.box {
+    display: flex;
+}
+.types {
+    font-size: 1.3125rem;
+    font-weight: 600;
+}

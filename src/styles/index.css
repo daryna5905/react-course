@@ -1,0 +1,11 @@
+@import url(./reset.css);
+
+.task {
+    margin: 1.875rem 0 0 0.625rem;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+.text {
+    margin: 0.625rem 0 0 0.3125rem;
+    font-size: 1.0625rem;
+}

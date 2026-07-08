@@ -1,0 +1,7 @@
+.salaryList {
+    margin: 0.625rem 0 0 0.625rem;
+    font-size: 1.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

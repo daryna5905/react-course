@@ -1,0 +1,41 @@
+.input,
+.password {
+    font-size: 1.25rem;
+    margin-top: 1.25rem;
+    display: flex;
+    align-items: center;
+    margin-left: 0.3125rem;
+}
+.input input,
+.password input {
+    padding: 0.5rem 0 0.5rem 0;
+    margin-left: 0.625rem;
+    border: 1px black solid;
+    width: 12.5rem;
+}
+.button {
+    font-size: 1.25rem;
+    padding: 0.625rem 2.1875rem;
+    margin-left: 1.5625rem;
+    border: 1px black solid;
+    margin-top: 0.625rem;
+    transition: all 0.3s;
+}
+.button:hover {
+    background-color: black;
+    color: white;
+}
+.content {
+    width: 12.5rem;
+    margin: 1.25rem 0 0 0.9375rem;
+    aspect-ratio: 200 / 180;
+}
+.content--blue {
+    color: blue;
+}
+.content--red {
+    color: red;
+}
+.content img {
+    object-fit: cover;
+}

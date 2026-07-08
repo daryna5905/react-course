@@ -1,0 +1,67 @@
+.searchBlock {
+    display: flex;
+    font-size: 1.125rem;
+    align-items: center;
+    gap: 0.3125rem;
+    margin-top: 1.25rem;
+}
+.searchBlock__input {
+    padding: 0.625rem 1.25rem;
+    width: 18.75rem;
+    border: 0.0625rem black solid;
+}
+.searchBlock__button {
+    font-size: 1.25rem;
+    padding: 0.5rem 2.1875rem;
+    border: 0.0625rem black solid;
+    transition: all 0.3s;
+}
+.searchBlock__button:hover,
+.waitingList__item-button:hover,
+.processingList__item-button:hover,
+.completedList__item-button:hover {
+    background-color: black;
+    color: white;
+}
+.cookingBlock {
+    min-height: 6.25rem;
+    border: 1px black solid;
+    display: flex;
+    max-width: 50rem;
+    justify-content: space-between;
+    gap: 0.3125rem;
+    font-size: 1.125rem;
+    padding: 0.625rem;
+    margin-top: 1.25rem;
+}
+.cookingBlock .title {
+    font-weight: 600;
+    text-decoration: underline;
+}
+.wrapper {
+    margin-left: 0.625rem;
+    padding-bottom: 20px;
+}
+.waitingList,
+.processingList,
+.completedList {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.waitingList__item,
+.processingList__item,
+.completedList__item {
+    margin-top: 0.625rem;
+    display: flex;
+    gap: 0.625rem;
+    align-items: center;
+}
+.waitingList__item-button,
+.processingList__item-button,
+.completedList__item-button {
+    font-size: 1.0625rem;
+    padding: 0.1875rem 15px;
+    border: 0.0625rem black solid;
+    transition: all 0.3s;
+}

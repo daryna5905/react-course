@@ -1,0 +1,34 @@
+.title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0.625rem;
+    margin-left: 15px;
+}
+.words {
+    display: flex;
+    gap: 0.9375rem;
+    margin-top: 0.625rem;
+    margin-left: 0.625rem;
+    padding: 0.3125rem;
+}
+.englishWords,
+.ukrainianWords {
+    min-height: 12.5rem;
+    min-width: 6.25rem;
+    padding: 0.3125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    border: 0.0625rem black solid;
+    font-size: 1.125rem;
+}
+.englishWord,
+.ukrainianWord {
+    padding: 0.3125rem;
+    border: 0.0625rem black solid;
+    cursor: pointer;
+}
+
+.activeBorder {
+    border: 2px solid blue;
+}

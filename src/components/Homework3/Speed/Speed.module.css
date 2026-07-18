@@ -1,0 +1,38 @@
+.background-orange {
+    background-color: rgb(238, 182, 78);
+}
+.background-green {
+    background-color: rgb(129, 219, 129);
+}
+.background-red {
+    background-color: rgb(224, 49, 49);
+}
+.input {
+    border: 0.0625rem black solid;
+    padding: 0.625rem 0.3125rem;
+    width: 15.625rem;
+    margin-top: 0.625rem;
+    font-size: 1.125rem;
+    display: block;
+    margin-left: 0.625rem;
+}
+.danger {
+    animation: blink 1s step-end infinite;
+    color: red;
+    font-size: 1.25rem;
+    margin-left: 0.625rem;
+    margin-top: 0.9375rem;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,28 @@
+.employees {
+    max-width: 18.75rem;
+    padding: 0.625rem;
+    min-height: 12.5rem;
+    border: 0.125rem rgb(41, 220, 17) solid;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    margin-top: 0.625rem;
+    margin-left: 0.9375rem;
+}
+.employeesTitle {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.employeesList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3125rem;
+    font-size: 1.125rem;
+}
+
+.employeesSearch {
+    width: 12.5rem;
+    padding: 0.3125rem;
+    font-size: 1.125rem;
+}

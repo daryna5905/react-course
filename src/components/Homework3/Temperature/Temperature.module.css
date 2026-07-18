@@ -1,0 +1,20 @@
+.temperature-white {
+    background-color: white;
+}
+.temperature-blue {
+    background-color: rgb(119, 193, 228);
+}
+.temperature-green {
+    background-color: rgb(126, 236, 148);
+}
+.temperature-red {
+    background-color: rgb(207, 88, 64);
+}
+.input-back {
+    border: 0.0625rem black solid;
+    padding: 0.625rem 0.3125rem;
+    width: 12.5rem;
+    margin-top: 0.625rem;
+    font-size: 1.125rem;
+    margin-left: 0.625rem;
+}

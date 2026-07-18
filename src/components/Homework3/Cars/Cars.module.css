@@ -1,0 +1,25 @@
+.select {
+    display: flex;
+    gap: 0.625rem;
+    margin-left: 0.9375rem;
+    margin-top: 1.25rem;
+}
+.selectOption {
+    font-size: 1.125rem;
+    padding: 0.625rem;
+}
+
+.carsList {
+    margin-top: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4375rem;
+    margin-left: 1.25rem;
+    font-size: 1.125rem;
+}
+.title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0.625rem;
+    margin-left: 1.25rem;
+}

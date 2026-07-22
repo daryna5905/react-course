@@ -1,21 +1,21 @@
-import { useState } from "react";
-import "./App.css";
-import Authentication from "./components/Homework2/Authentication";
-import Plane from "./components/Homework2/Plane";
-import EnglishCard from "./components/Homework2/EnglishCard";
-import SalaryList from "./components/Homework2/SalaryList";
-import CookingTable from "./components/Homework2/CookingTable";
-import Homework2 from "./components/Homework2/Homework2";
-import Homework3 from "./components/Homework3/Homework3";
+import { useState } from 'react';
+import './App.css';
+import Authentication from './components/Homework2/Authentication';
+import Plane from './components/Homework2/Plane';
+import EnglishCard from './components/Homework2/EnglishCard';
+import SalaryList from './components/Homework2/SalaryList';
+import CookingTable from './components/Homework2/CookingTable';
+import Homework2 from './components/Homework2/Homework2';
+import Homework3 from './components/Homework3/Homework3';
 
 function App() {
-  const [component, setComponent] = useState("");
+  const [component, setComponent] = useState('');
   function handleClick(id) {
     switch (id) {
-      case "1":
+      case '1':
         setComponent(<Homework2 />);
         break;
-      case "2":
+      case '2':
         setComponent(<Homework3 />);
         break;
 
@@ -27,18 +27,18 @@ function App() {
     <>
       <ul>
         <li
-          id="1"
-          style={{ cursor: "pointer" }}
+          id='1'
+          style={{ cursor: 'pointer' }}
           onClick={(e) => handleClick(e.target.id)}
         >
-          Homework2
+          Homework 2
         </li>
         <li
-          id="2"
-          style={{ cursor: "pointer" }}
+          id='2'
+          style={{ cursor: 'pointer' }}
           onClick={(e) => handleClick(e.target.id)}
         >
-          Homework3
+          Homework 3
         </li>
       </ul>
       {component}

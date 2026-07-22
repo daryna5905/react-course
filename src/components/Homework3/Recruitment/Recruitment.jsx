@@ -1,26 +1,26 @@
-import { useState } from "react";
-import styles from "./Recruitment.module.css";
+import { useState } from 'react';
+import styles from './Recruitment.module.css';
 
 const employees = [
   {
     id: 1,
-    name: "Іванов І.І",
+    name: 'Іванов І.І',
   },
   {
     id: 2,
-    name: "Петров П.П",
+    name: 'Петров П.П',
   },
   {
     id: 3,
-    name: "Скрипка С.П",
+    name: 'Скрипка С.П',
   },
   {
     id: 4,
-    name: "Гончаренко Г.О",
+    name: 'Гончаренко Г.О',
   },
   {
     id: 5,
-    name: "Івась І.І",
+    name: 'Івась І.І',
   },
 ];
 
@@ -40,24 +40,23 @@ function Recruitment() {
 
   return (
     <>
-      <h1 className="task">Задача 7</h1>
-      <p className="text">
-        {" "}
+      <h1 className='task'>Задача 7</h1>
+      <p className='text'>
         Динамічний пошук. Є список працівників і поле пошуку. При введенні
         відображаються усі, які містять вказаний фрагмент
       </p>
       <div className={styles.employees}>
-        <label htmlFor="employeeName">
+        <label htmlFor='employeeName'>
           <input
             className={styles.employeesSearch}
-            type="text"
-            id="employeeName"
-            placeholder="Я шукаю..."
+            type='text'
+            id='employeeName'
+            placeholder='Я шукаю...'
             onChange={(e) => setEmployee(e.target.value)}
           />
         </label>
         <h2 className={styles.employeesTitle}>Працівники</h2>
-        <ul className={styles["employeesList"]}>
+        <ul className={styles['employeesList']}>
           {!employee
             ? employees.map((employee) => (
                 <li key={employee.id} className={styles.employeeItem}>

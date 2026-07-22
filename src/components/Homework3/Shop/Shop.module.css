@@ -1,0 +1,49 @@
+.wrapper {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.block {
+  max-width: 200px;
+  margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+.shopList,
+.goodsList,
+.distributionGoods {
+  border: 2px black solid;
+  font-size: 18px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  min-height: 100px;
+}
+.blockTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+.addButton {
+  font-size: 18px;
+  padding: 7px;
+  border: 2px black solid;
+  transition: all 0.3s;
+  height: 35px;
+}
+.addButton:hover {
+  background-color: black;
+  color: white;
+}
+.shopItem,
+.goodItem {
+  cursor: pointer;
+}
+.distributionGoodItem {
+  font-weight: bold;
+}
+.activeBorder {
+  border: 2px solid blue;
+}

@@ -1,0 +1,70 @@
+.controlPanel {
+  display: flex;
+  gap: 10px;
+}
+.gameBlock {
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 15px;
+  margin-top: 10px;
+  display: inline-block;
+}
+.panelTitle,
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.makeMoveButton {
+  border: 1px solid black;
+  font-size: 18px;
+  padding: 4px 6px;
+  transition: all 0.3s;
+}
+.makeMoveButton:hover {
+  background-color: black;
+  color: white;
+}
+.input {
+  border: 1px solid black;
+  padding: 5px;
+  width: 150px;
+  font-size: 18px;
+}
+.panelBlock {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+}
+.wrapper {
+  display: block;
+  gap: 7px;
+  border: 1px solid black;
+  padding: 10px;
+  margin-top: 15px;
+}
+.numberBlock {
+  display: flex;
+  gap: 7px;
+  margin-top: 15px;
+  justify-content: center;
+}
+.digitBlock {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+}
+.mask {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+}
+.clearBackground {
+  background-color: transparent;
+}

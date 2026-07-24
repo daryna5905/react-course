@@ -1,0 +1,35 @@
+.sendMassageBlock {
+  display: flex;
+  gap: 0.4375rem;
+  margin-top: 0.9375rem;
+  margin-left: 0.9375rem;
+}
+.input {
+  width: 15.625rem;
+  padding: 0.3125rem;
+  font-size: 1.125rem;
+  border: 0.0625rem black solid;
+}
+.sendMassageButton,
+.likeButton,
+.dislikeButton {
+  padding: 0.3125rem;
+  font-size: 1.125rem;
+  border: 0.0625rem black solid;
+}
+.list {
+  font-size: 1.125rem;
+  margin-top: 0.9375rem;
+}
+.message {
+  display: flex;
+  align-items: center;
+  width: 18.75rem;
+}
+.text {
+  margin-left: 0.9375rem;
+  margin-right: 0.625rem;
+}
+.likeCount {
+  margin-left: 0.625rem;
+}

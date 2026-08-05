@@ -141,8 +141,8 @@ function DataGrid() {
         </button>
       </div>
       <ul>
-        {/* {result &&
-          result.map((result) => <GridRow fruit={result} key={result.id} />)} */}
+        {result &&
+          result.map((result) => <GridRow fruit={result} key={result.id} />)}
       </ul>
     </>
   );

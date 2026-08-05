@@ -1,0 +1,10 @@
+.windowSize {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.deviceImg {
+  width: 200px;
+  aspect-ratio: 200/200;
+  margin: 0 auto;
+}

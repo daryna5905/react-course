@@ -1,0 +1,39 @@
+.calculatorInputs {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  max-width: 415px;
+  margin: 20px auto;
+}
+.calculatorInput {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+}
+.counter {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin: 20px auto;
+  max-width: 215px;
+}
+.counterButton {
+  width: 100px;
+  padding: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+.counterButton:hover {
+  background-color: black;
+  color: white;
+}
+.counterResult {
+  font-size: 18px;
+  text-align: center;
+}
+.calculatedResult {
+  font-size: 20px;
+  text-align: center;
+}

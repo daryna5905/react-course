@@ -1,0 +1,41 @@
+.digitInput {
+  margin: 20px auto;
+  width: 200px;
+  border: 1px black solid;
+  padding: 5px;
+  font-size: 18px;
+  display: block;
+}
+.filterButtons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.sortByNameAsc:hover {
+  color: white;
+  background-color: black;
+}
+
+.filterButton {
+  border: 1px solid black;
+  transition: all 0.3s;
+  font-size: 18px;
+  padding: 5px;
+  width: 200px;
+}
+.sortByNameDesc:hover {
+  background-color: palegreen;
+  border: 1px solid palegreen;
+  color: white;
+}
+.sortByPriceAsc:hover {
+  background-color: gold;
+  border: 1px solid gold;
+  color: white;
+}
+.sortByPriceDesc:hover {
+  background-color: rgb(109, 231, 255);
+  border: 1px solid rgb(109, 231, 255);
+  color: white;
+}

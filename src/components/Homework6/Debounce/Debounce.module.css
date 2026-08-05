@@ -1,0 +1,19 @@
+.searchInput {
+  width: 200px;
+  padding: 5px;
+  border: 1px solid black;
+  font-size: 18px;
+  display: block;
+  margin: 20px auto;
+}
+.resultTitle {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.resultList {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  font-size: 18px;
+}

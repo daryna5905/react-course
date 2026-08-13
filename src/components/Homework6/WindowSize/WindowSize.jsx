@@ -35,6 +35,7 @@ function WindowSize() {
             <img src={device} alt='device' />
           </div>
         )}
+        
       </div>
     </>
   );

@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: #0f172a;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.contentWrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}

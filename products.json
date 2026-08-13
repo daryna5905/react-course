@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Телевізор Samsung UE43CU7172",
+    "category": "televisions",
+    "price": 18999,
+    "oldPrice": 21999,
+    "image": "https://picsum.photos/id/1/300/200"
+  },
+  {
+    "id": 2,
+    "name": "Телевізор LG 43UR78006LK",
+    "category": "televisions",
+    "price": 16499,
+    "oldPrice": 19999,
+    "image": "https://picsum.photos/id/20/300/200"
+  },
+  {
+    "id": 3,
+    "name": "Телевізор Xiaomi TV A Pro 43",
+    "category": "televisions",
+    "price": 13999,
+    "oldPrice": 15999,
+    "image": "https://picsum.photos/id/30/300/200"
+  },
+  {
+    "id": 4,
+    "name": "Телевізор Philips 43PUS7608",
+    "category": "televisions",
+    "price": 15499,
+    "oldPrice": 17999,
+    "image": "https://picsum.photos/id/40/300/200"
+  },
+  {
+    "id": 5,
+    "name": "Ноутбук Lenovo ThinkPad T14",
+    "category": "laptops",
+    "price": 27500,
+    "oldPrice": 32500,
+    "image": "https://picsum.photos/id/60/300/200"
+  },
+  {
+    "id": 6,
+    "name": "Ноутбук HP Pavilion 15",
+    "category": "laptops",
+    "price": 18434,
+    "oldPrice": 21999,
+    "image": "https://picsum.photos/id/70/300/200"
+  },
+  {
+    "id": 7,
+    "name": "Ноутбук Fujitsu Lifebook A3510",
+    "category": "laptops",
+    "price": 9099,
+    "oldPrice": 10799,
+    "image": "https://picsum.photos/id/80/300/200"
+  },
+  {
+    "id": 8,
+    "name": "Ноутбук HP ProBook 430 G4",
+    "category": "laptops",
+    "price": 6399,
+    "oldPrice": 7999,
+    "image": "https://picsum.photos/id/90/300/200"
+  },
+  {
+    "id": 9,
+    "name": "Смартфон Apple iPhone 15",
+    "category": "phones",
+    "price": 32999,
+    "oldPrice": 36999,
+    "image": "https://picsum.photos/id/110/300/200"
+  },
+  {
+    "id": 10,
+    "name": "Смартфон Samsung Galaxy S24",
+    "category": "phones",
+    "price": 28999,
+    "oldPrice": 31999,
+    "image": "https://picsum.photos/id/120/300/200"
+  },
+  {
+    "id": 11,
+    "name": "Смартфон Xiaomi Redmi Note 13",
+    "category": "phones",
+    "price": 8999,
+    "oldPrice": 9999,
+    "image": "https://picsum.photos/id/130/300/200"
+  },
+  {
+    "id": 12,
+    "name": "Смартфон Google Pixel 8",
+    "category": "phones",
+    "price": 24999,
+    "oldPrice": 27999,
+    "image": "https://picsum.photos/id/140/300/200"
+  },
+  {
+    "id": 13,
+    "name": "Монітор Samsung 24\" S24C310",
+    "category": "monitors",
+    "price": 4999,
+    "oldPrice": 5999,
+    "image": "https://picsum.photos/id/160/300/200"
+  },
+  {
+    "id": 14,
+    "name": "Монітор LG 27\" 27MR400",
+    "category": "monitors",
+    "price": 6799,
+    "oldPrice": 7499,
+    "image": "https://picsum.photos/id/170/300/200"
+  },
+  {
+    "id": 15,
+    "name": "Монітор Philips 24\" 241V8",
+    "category": "monitors",
+    "price": 4599,
+    "oldPrice": 5299,
+    "image": "https://picsum.photos/id/180/300/200"
+  },
+  {
+    "id": 16,
+    "name": "Монітор ASUS 27\" VA27EHE",
+    "category": "monitors",
+    "price": 7299,
+    "oldPrice": 8299,
+    "image": "https://picsum.photos/id/190/300/200"
+  }
+]

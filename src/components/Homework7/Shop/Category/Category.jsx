@@ -8,7 +8,7 @@ function Category() {
   const { category } = useParams();
   const navigate = useNavigate();
   useEffect(() => {
-    fetch('/products.json')
+    fetch(`${import.meta.env.BASE_URL}products.json`)
       .then((response) => response.json())
       .then((jsonData) => setData(jsonData))
       .catch((error) => console.error(error));

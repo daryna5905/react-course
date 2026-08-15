@@ -25,7 +25,7 @@ function DataGrid() {
     }
     abortControllerRef.current = new AbortController();
     const fetchProducts = async () => {
-      const response = await fetch('./fruits.json', {
+      const response = await fetch(`${import.meta.env.BASE_URL}fruits.json`, {
         signal: abortControllerRef.current.signal,
       });
       const data = await response.json();

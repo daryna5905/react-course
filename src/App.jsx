@@ -17,6 +17,7 @@ import Rules from './components/Homework7/Rules';
 import Contacts from './components/Homework7/Contacts';
 import Main from './components/Homework7/Main';
 import Category from './components/Homework7/Shop/Category';
+import AppRoutes from './components/Homework8/Router/AppRuotes';
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
         <li>
           <Link to={'/Homework7'}>Homework 7</Link>
         </li>
+        <li>
+          <Link to={'/Homework8'}>Homework 8</Link>
+        </li>
       </ul>
       <Routes>
         <Route path='/Homework2' element={<Homework2 />} />
@@ -55,6 +59,7 @@ function App() {
           <Route path='rules' element={<Rules />} />
           <Route path='contacts' element={<Contacts />} />
         </Route>
+        <Route path='/Homework8/*' element={<AppRoutes />} />
       </Routes>
     </>
   );
